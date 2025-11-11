@@ -1,0 +1,8 @@
+function rps(user, computer) {
+  if (user === computer) return "draw";
+  if (user === "rock" && computer === "scissor") return "User Won";
+  if (user === "scissor" && computer === "rock") return "Computer Won";
+  if (user == "paper" && computer === "scissor") return "User Won";
+  if (user == "rock" && computer === "paper") return "Computer Won";
+}
+console.log(rps("rock", "rock"));
